@@ -1,0 +1,28 @@
+.card_pic{
+    float: left;
+    aspect-ratio: 4/5;
+    width: 10rem;
+    height: 15rem;
+    padding-right: 1rem;
+    
+}
+.panel__list{
+    display: grid;
+    flex-direction: row;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+.panel-item{
+    margin-left: 0;
+    padding-left: 0;
+    background-color: #000000;
+    color: rgb(255,255,255);
+    font-size: 2rem;
+    margin: 1rem;
+    padding: .5rem;
+    border: 1px solid black;
+    list-style: none;
+}

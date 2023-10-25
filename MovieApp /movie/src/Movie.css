@@ -1,0 +1,45 @@
+.card-picture{
+    aspect-ratio: 3/4;
+    width: 20rem;
+    align-items: center;
+}
+
+
+
+.card__list{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1rem;
+    margin-left: 0;
+    padding-left: 0;
+    padding: 0.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+.card__item{
+    place-items: center;
+    display: grid;
+    grid-column: span 4;
+    list-style: none;
+    text-align: center;
+    background-color: #2D2D2D;
+    align-items: center;
+    color: white;
+}
+
+.card-link{
+    color: white;
+}
+
+@media (max-width:44rem){
+    .card__item{
+        place-items: center;
+        display: grid;
+        grid-column: span 12;
+        list-style: none;
+        text-align: center;
+        background-color: #2D2D2D;
+        align-items: center;
+    }
+}

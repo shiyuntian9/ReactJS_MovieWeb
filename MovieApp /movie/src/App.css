@@ -1,0 +1,91 @@
+
+
+.app{
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  height: 100%;
+
+}
+
+
+#dark html{
+  background-color: #000000;
+  scroll-behavior: smooth;
+}
+
+#light html{
+  background-color: #594D6A;
+  scroll-behavior: smooth;
+}
+
+
+
+
+.skip-nav-link{
+  background: #000000;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.25rem;
+  position: absolute;
+  color: white;
+  visibility: hidden;
+  /* transform: translateY(-120%);
+  transition: transform 325ms ease-in; */
+}
+
+.skip-nav-link:focus-within{
+  transform: translateY(0);
+  visibility: visible;
+  color: white;
+}
+
+
+#light .switch{
+  background-color:#594D6A;
+}
+
+#light Header{
+  background-color:#594D6A;
+}
+#light .slider{
+  background-color:#594D6A;
+}
+
+#light .global-nav{
+  background-color:#594D6A;
+}
+
+#light ReactSwitch{
+  background-color:#000000;
+}
+
+#light .global-nav__list{
+  background-color:#594D6A;
+}
+#light Main
+{
+  background-color:#594D6A;
+}
+
+#light Footer
+{
+  background-color:#594D6A;
+}
+
+#dark Header{
+  background-color: #000000;
+}
+
+#dark ImageSlider.slider{
+  background-color: #000000;
+}
+
+.switch{
+  display: flex;
+  width: 100vw;
+  height: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+
+

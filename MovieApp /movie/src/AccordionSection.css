@@ -1,0 +1,23 @@
+.accordion-section__title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100%;
+    text-align: left;
+    background-color: gray;
+    margin-top: 0;
+
+}
+
+.accordion-section__title::after{
+    content: '+';
+}
+
+.accordion-section__title--open::after{
+    content: "-";
+}
+
+.accordion-span{
+    display: flex;
+    color: white;
+}
